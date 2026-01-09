@@ -1,7 +1,6 @@
 [package]
 name = "chess-engine"
-version = "0.1.2"
-authors = ["Adam McDaniel <adam.mcdaniel17@gmail.com>"]
+version = "0.1.2"]
 edition = "2018"
 description = "A dependency-free chess engine library built to run anywhere."
 documentation = "https://docs.rs/chess-engine/"
@@ -27,3 +26,4 @@ name = "chess"
 [[example]]
 
 name = "terminal"
+
