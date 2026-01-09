@@ -6,7 +6,7 @@
   </p>
 
   <h3>
-    <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">Demo</a>
+    <a href="https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html">Demo</a>
     <span> | </span>
     <a href="https://docs.rs/chess-engine/">Docs</a>
     
@@ -17,10 +17,10 @@
 </div>
 
 <div align="center">
-  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html">
     <img alt="Chess in the terminal" src="./assets/terminal2.png" width="36%"/>
   </a>
-  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html">
     <img alt="Chess in the web" src="./assets/web.png" width="63%"/>
   </a>
 </div>
@@ -43,13 +43,13 @@ This allows the computer to almost always play objectively better moves than the
 
 ## Embedded in the Web
 
-Because it has zero dependencies, it's extremely simple to embed in the web browser using wasm. [Try playing it yourself!](https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai)
+Because it has zero dependencies, it's extremely simple to embed in the web browser using wasm. [Try playing it yourself!](https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html)
 
 <div align="center">
   <p>
     <strong>Average AI Setting</strong>
   </p>
-  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html">
     <img alt="Try playing it yourself!" src="./assets/web-board.png"/>
   </a>
 </div>
@@ -96,7 +96,7 @@ _**Keep in mind when using a `BoardBuilder` that castling is disabled by default
     <strong>Play the Horde Chess Variant</strong>
   </p>
 
-  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#other-features">
+  <a href="https://github.com/sourabhh2807/chess-engine/blob/main/docs/book/index.html">
     <img alt="Play the Horde Chess Variant" src="./assets/horde.png"/>
   </a>
 </div>
@@ -147,6 +147,7 @@ fn main() {
         }
     }
 }
+
 
 
 
