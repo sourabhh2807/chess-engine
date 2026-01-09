@@ -9,11 +9,11 @@
     <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">Demo</a>
     <span> | </span>
     <a href="https://docs.rs/chess-engine/">Docs</a>
-    <span> | </span>
+    
     
   </h3>
 
-  <sub>Written in Rust🦀💖</sub>
+  <sub>Written in Rust</sub>
 </div>
 
 <div align="center">
@@ -26,13 +26,7 @@
 </div>
 
 
-## Why write a Chess engine?
 
-Above all, [this video](https://www.youtube.com/watch?v=DpXy041BIlA&t=7s) by [Tom7](http://tom7.org/) is my inspiration for this project. He's absolutely brilliant and I implore you to watch his content.
-
-I love chess a _lot_. It's definitely one of my favorite games ever. However, I've always been disappointed when trying to write programs that play chess digitally (particularly in a compiled language). Although several amazing engines exist, it's near impossible to find a neat library for chess-related-programming that runs on everything.
-
-chess-engine is a solution to my problem. If you want a chess engine that runs on embedded devices, the terminal, [the desktop (with a gui)](https://github.com/sourabhh2807/chess-engine/tree/main/examples/chess-gui), _and_ [the web](https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai), this is probably your best bet.
 
 ## How does it work?
 
@@ -153,24 +147,8 @@ fn main() {
         }
     }
 }
-```
 
-## About the Author
-<div align="center">
-  <h3>
-    <a href="https://sourabhh2807.net">Website</a>
-    <span> | </span>
-    <a href="https://sourabhh2807.net/blog">Blog</a>
-    <span> | </span>
-    <a href="https://github.com/sourabhh2807">GitHub</a>
-  </h3>
 
-  <p>
-    I'm a freshman in college, mainly working on side projects like these in the ~30 minute breaks between classes. If you enjoy my projects, consider supporting me by buying me a coffee!
-  </p>
 
-  <a href="https://www.buymeacoffee.com/adam.mcdaniel" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="60px" width="217px"/>
-  </a>
-</div>
+
 
