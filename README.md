@@ -1,26 +1,26 @@
 <div align="center">
-  <h1>♔chess-engine♚</h1>
+  <h1>chess-engine</h1>
 
   <p>
     <strong>A dependency-free chess engine library built to run anywhere.</strong>
   </p>
 
   <h3>
-    <a href="https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai">Demo</a>
+    <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">Demo</a>
     <span> | </span>
     <a href="https://docs.rs/chess-engine/">Docs</a>
     <span> | </span>
-    <a href="mailto:adam.mcdaniel17@gmail.com">Contact Me</a>
+    
   </h3>
 
   <sub>Written in Rust🦀💖</sub>
 </div>
 
 <div align="center">
-  <a href="https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
     <img alt="Chess in the terminal" src="./assets/terminal2.png" width="36%"/>
   </a>
-  <a href="https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
     <img alt="Chess in the web" src="./assets/web.png" width="63%"/>
   </a>
 </div>
@@ -32,7 +32,7 @@ Above all, [this video](https://www.youtube.com/watch?v=DpXy041BIlA&t=7s) by [To
 
 I love chess a _lot_. It's definitely one of my favorite games ever. However, I've always been disappointed when trying to write programs that play chess digitally (particularly in a compiled language). Although several amazing engines exist, it's near impossible to find a neat library for chess-related-programming that runs on everything.
 
-chess-engine is a solution to my problem. If you want a chess engine that runs on embedded devices, the terminal, [the desktop (with a gui)](https://github.com/adam-mcdaniel/chess-engine/tree/main/examples/chess-gui), _and_ [the web](https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai), this is probably your best bet.
+chess-engine is a solution to my problem. If you want a chess engine that runs on embedded devices, the terminal, [the desktop (with a gui)](https://github.com/sourabhh2807/chess-engine/tree/main/examples/chess-gui), _and_ [the web](https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai), this is probably your best bet.
 
 ## How does it work?
 
@@ -49,13 +49,13 @@ This allows the computer to almost always play objectively better moves than the
 
 ## Embedded in the Web
 
-Because it has zero dependencies, it's extremely simple to embed in the web browser using wasm. [Try playing it yourself!](https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai)
+Because it has zero dependencies, it's extremely simple to embed in the web browser using wasm. [Try playing it yourself!](https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai)
 
 <div align="center">
   <p>
     <strong>Average AI Setting</strong>
   </p>
-  <a href="https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#average-ai">
+  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#average-ai">
     <img alt="Try playing it yourself!" src="./assets/web-board.png"/>
   </a>
 </div>
@@ -102,7 +102,7 @@ _**Keep in mind when using a `BoardBuilder` that castling is disabled by default
     <strong>Play the Horde Chess Variant</strong>
   </p>
 
-  <a href="https://adam-mcdaniel.github.io/chess-engine/docs/book/index.html#other-features">
+  <a href="https://sourabhh2807.github.io/chess-engine/docs/book/index.html#other-features">
     <img alt="Play the Horde Chess Variant" src="./assets/horde.png"/>
   </a>
 </div>
@@ -158,11 +158,11 @@ fn main() {
 ## About the Author
 <div align="center">
   <h3>
-    <a href="https://adam-mcdaniel.net">Website</a>
+    <a href="https://sourabhh2807.net">Website</a>
     <span> | </span>
-    <a href="https://adam-mcdaniel.net/blog">Blog</a>
+    <a href="https://sourabhh2807.net/blog">Blog</a>
     <span> | </span>
-    <a href="https://github.com/adam-mcdaniel">GitHub</a>
+    <a href="https://github.com/sourabhh2807">GitHub</a>
   </h3>
 
   <p>
@@ -173,3 +173,4 @@ fn main() {
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="60px" width="217px"/>
   </a>
 </div>
+
