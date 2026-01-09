@@ -6,8 +6,8 @@ edition = "2018"
 description = "A dependency-free chess engine library built to run anywhere."
 documentation = "https://docs.rs/chess-engine/"
 readme = "README.md"
-homepage = "https://github.com/adam-mcdaniel/chess-engine"
-repository = "https://github.com/adam-mcdaniel/chess-engine"
+homepage = "https://github.com/sourabhh2807/chess-engine"
+repository = "https://github.com/sourabhh2807/chess-engine"
 license = "MIT"
 keywords = ["chess", "engine", "game", "board", "ai"]
 categories = [
@@ -25,4 +25,5 @@ path = "src/bin.rs"
 name = "chess"
 
 [[example]]
+
 name = "terminal"
