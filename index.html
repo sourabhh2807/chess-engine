@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Chess Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-root">
+    <header class="app-header">
+      <h1>♚ ChessAddict ♛</h1>
+      <div class="controls" id="menu">
+        <button id="offlineBtn">Offline</button>
+        <button id="aiEasyBtn">AI Easy</button>
+        <button id="aiMediumBtn">AI Medium</button>
+        <button id="aiHardBtn">AI Hard</button>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="board-card">
+        <div id="status" class="status-bar">Choose a game mode</div>
+        <div id="board" class="board" aria-label="Chess board"></div>
+      </section>
+
+      <aside class="side-panel">
+        <div class="panel-card">
+          <h3>Game</h3>
+          <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+            <button id="undoBtn">Undo</button>
+            <button id="redoBtn">Redo</button>
+          </div>
+          <div id="moves" style="max-height:420px;overflow:auto">Moves will appear here</div>
+          <hr style="margin:12px 0" />
+          <div>
+            <!-- Online play removed: only Offline and AI modes supported -->
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Online modal removed -->
+
+    <footer class="app-footer">♚ ChessAddict ♛</footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
