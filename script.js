@@ -1,7 +1,7 @@
 // =====================
 // GLOBAL STATE
 // =====================
-
+const API_URL = "https://chess-engine-fkdy.onrender.com/move";
 const boardDiv = document.getElementById("board");
 const statusDiv = document.getElementById("status");
 
@@ -445,3 +445,4 @@ function showCheckmateModal(winner) {
   overlay.appendChild(card);
   document.body.appendChild(overlay);
 }
+
