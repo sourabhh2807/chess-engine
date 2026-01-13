@@ -5,7 +5,7 @@ A full-stack chess game that allows users to play chess offline with a friend or
 The frontend is deployed on GitHub Pages, while the AI backend runs on Render, communicating via a REST API.
 
 ## 🚀 Live Demo  
-[View Portfolio](https://sourabhh2807.github.io/chess-engine/) 
+[Play](https://sourabhh2807.github.io/chess-engine/) 
 
 <img width="1728" height="801" alt="image" src="https://github.com/user-attachments/assets/c58b2d4b-e653-42d5-8a9f-04e036ee0ce3" />
 
@@ -27,3 +27,33 @@ The frontend is deployed on GitHub Pages, while the AI backend runs on Render, c
 **🧑‍🤝‍🧑 Game Modes**
 Play with a Friend (Offline) – two players on the same device
 Play with AI – human vs computer(3 Levels- Easy, Medium, Hard)
+
+## 🌐 Full-Stack Architecture
+-Frontend built with **HTML, CSS, and JavaScript**
+-Backend built with **Flask (Python)**
+-**REST-based** communication between frontend and backend
+-Secure cross-origin communication using **CORS**
+
+## ☁️ Deployment
+-Frontend hosted on GitHub Pages
+-Backend deployed on Render
+-Production-ready setup using Gunicorn
+-Fully HTTPS-enabled public deployment
+
+## 🛠️ Tech Stack
+**Frontend**
+HTML5
+CSS3
+JavaScript (Vanilla)
+chess.js
+
+**Backend**
+Python
+Flask
+flask-cors
+python-chess
+Gunicorn
+
+**Deployment**
+GitHub Pages (Frontend)
+Render (Backend)
