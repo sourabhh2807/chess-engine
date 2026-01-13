@@ -1,7 +1,7 @@
 // =====================
 // GLOBAL STATE
 // =====================
-const API_URL = "https://chess-engine-fkdy.onrender.com/";
+const API_URL = "https://chess-engine-fkdy.onrender.com/move";
 const boardDiv = document.getElementById("board");
 const statusDiv = document.getElementById("status");
 
@@ -228,7 +228,7 @@ function onSquareClick(square) {
 function aiMove() {
   console.log("🤖 AI MOVE CALLED");
 
-  fetch("http://127.0.0.1:5000/move", {
+  fetch("https://chess-engine-fkdy.onrender.com/move", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     // send configured depth from UI
@@ -445,6 +445,7 @@ function showCheckmateModal(winner) {
   overlay.appendChild(card);
   document.body.appendChild(overlay);
 }
+
 
 
 
