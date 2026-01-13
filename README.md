@@ -1,4 +1,4 @@
-# chess-engine - ♚ ChessAddict ♛
+♚ ChessAddict ♛
 ♟️ Chess Engine – Full Stack Web Application
 
 A full-stack chess game that allows users to play chess offline with a friend or against an AI opponent, built using HTML, CSS, JavaScript, and Python.
